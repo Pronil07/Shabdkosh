@@ -1,0 +1,31 @@
+.words {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.tiles {
+    width: 40px;
+    height: 40px;
+    border: 1px solid var(--lineColor);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+
+.correct {
+    background-color: var(--correctInputColor);
+}
+
+.incorrect {
+    background-color: var(--incorrectInputColor);
+}
+
+.partiallyCorrect {
+    background-color: var(--partialInputColor);
+}

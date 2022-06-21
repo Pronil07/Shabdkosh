@@ -1,0 +1,10 @@
+.board {
+    background-color: var(--secondaryBgColor);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 8px var(--secondaryBgColor);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
